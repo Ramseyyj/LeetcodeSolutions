@@ -29,6 +29,12 @@
  *            ps: 在遍历num1和num2的时候，一定要从反向遍历，即先从个位开始，否正result的进位就会出问题
  */
 public class MultiplyStrings {
+
+    public static void main(String[] args)
+    {
+        System.out.println(new MultiplyStrings().multiply("123", "456"));
+    }
+
     public String multiply(String num1, String num2) {
 
         int l1 = num1.length();
