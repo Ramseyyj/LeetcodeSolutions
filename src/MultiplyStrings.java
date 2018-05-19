@@ -18,10 +18,10 @@
  * Output: "56088"
  *
  * Note:
- * 1. The length of both num1 and num2 is < 110.
- * 2. Both num1 and num2 contain only digits 0-9.
- * 3. Both num1 and num2 do not contain any leading zero, except the number 0 itself.
- * 4. You must not use any built-in BigInteger library or convert the inputs to integer directly.
+ *  1. The length of both num1 and num2 is < 110.
+ *  2. Both num1 and num2 contain only digits 0-9.
+ *  3. Both num1 and num2 do not contain any leading zero, except the number 0 itself.
+ *  4. You must not use any built-in BigInteger library or convert the inputs to integer directly.
  *
  * 自己的思路：如果num1的长度为l1, num2的长度为l2，那么他们的结果result最大长度为l1+l2,
  *            并且 num1[i] * num2[j] 的结果将会被放置在result[i+j]~result[i+j+1];
