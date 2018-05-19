@@ -18,6 +18,15 @@
  * Input: "cbbd"
  *
  * Output: "bb"
+ *
+ * 自己的思路：遍历s中的所有字符，并且从当前字符开始向两边扫描出最长的回文子串;
+ *
+ * 其他思路：DP解法，s(i,j)是回文子串，则s(i+1,j-1)也必须得是回文子串，以此得出DP的方程，
+ *
+ *          如果 s[j] = s[i] 并且 dp[i+1][j-1] >= 0  则 dp[i][j] = dp[i+1][j-1] + 2
+ *          否则 dp[i][j] = -1;
+ *
+ *          dp[i][j]表示从i到j是否为回文子串，是就存储回文子串的长度，不是就存储-1;
  */
 public class LongestPalindromicSubstring {
 
