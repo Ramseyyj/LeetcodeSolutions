@@ -25,6 +25,8 @@
  *
  * 自己的思路：如果num1的长度为l1, num2的长度为l2，那么他们的结果result最大长度为l1+l2,
  *            并且 num1[i] * num2[j] 的结果将会被放置在result[i+j]~result[i+j+1];
+ *
+ *            ps: 在遍历num1和num2的时候，一定要从反向遍历，即先从个位开始，否正result的进位就会出问题
  */
 public class MultiplyStrings {
     public String multiply(String num1, String num2) {
