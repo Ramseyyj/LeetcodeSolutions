@@ -37,6 +37,27 @@
  *
  *            ps: 还要考虑s开头就是0的情况，这种情况也是直接返回0
  *
+ * 其他思路：从后往前扫描，如果s[i]是0，直接无解
+ *
+ *          如果s[i]不是0并且和s[i-1]可以解析出一个字母: memo[i] = memo[i+1]+memo[i+2]
+ *
+ *          如果s[i]不是0并且不能和s[i-1]可以解析出一个字母: memo[i] = memo[i+1]
+ *
+ *      public int numDecodings(String s) {
+ *          int n = s.length();
+ *          if (n == 0) return 0;
+
+ *          int[] memo = new int[n+1];
+ *          memo[n]  = 1;
+ *          memo[n-1] = s.charAt(n-1) != '0' ? 1 : 0;
+
+ *          for (int i = n - 2; i >= 0; i--)
+ *              if (s.charAt(i) == '0') continue;
+ *              else memo[i] = (Integer.parseInt(s.substring(i,i+2))<=26) ? memo[i+1]+memo[i+2] : memo[i+1];
+
+ *          return memo[0];
+ *      }
+ *
  */
 public class DecodeWays {
 
@@ -103,3 +124,5 @@ public class DecodeWays {
 
     }
 }
+
+
