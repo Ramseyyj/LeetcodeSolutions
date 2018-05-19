@@ -1,10 +1,31 @@
 import java.util.Arrays;
 
-public class Solution {
+/**
+ * Created by Yu Yujie on 19/05/2018.
+ *
+ * Problem 556: Next Greater Element III
+ *
+ * Description:
+ * Given a positive 32-bit integer n, you need to find the smallest 32-bit integer
+ * which has exactly the same digits existing in the integer n and is greater in
+ * value than n. If no such positive 32-bit integer exists, you need to return -1.
+ *
+ * Example 1:
+ * Input: 12
+ * Output: 21
+ *
+ * Example 2:
+ * Input: 21
+ * Output: -1
+ *
+ * 自己的思路：首先把int转成char[] numArray，然后从后往前遍历，直到找到一个数a（它的后面存在比它更大的数），a的下标为p1。
+ *            将这个数a和它后面比它大的最小数交换位置。最后将numArray在p1后面的所有数按从小到大的顺序排列。
+ */
+class NextGreaterElementIII {
 
     public static void main(String[] args)
     {
-        System.out.println(new Solution().nextGreaterElement(12));
+        System.out.println(new NextGreaterElementIII().nextGreaterElement(516325));
     }
 
     public int nextGreaterElement(int n) {
