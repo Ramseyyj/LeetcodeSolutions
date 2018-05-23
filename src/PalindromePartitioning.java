@@ -19,7 +19,8 @@ import java.util.List;
  * ["a","a","b"]
  * ]
  *
- * 自己的思路：回溯算法
+ * 自己的思路：回溯算法，假设字符串s的next之前的子串已经划分完毕，我们寻找下一个可以划分的回文子串，并进行递归
+ *            然后把这个子串再回溯恢复，重新从next出寻找下一个可以划分的回文子串，以此类推。
  */
 public class PalindromePartitioning {
 
