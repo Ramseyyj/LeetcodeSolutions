@@ -1,15 +1,35 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Solution {
+/**
+ * Created by Yu Yujie on 23/05/2018.
+ *
+ * Problem 5: Palindrome Partitioning
+ *
+ * Description:
+ * Given a string s, partition s such that every substring of the partition is a palindrome.
+ * Return all possible palindrome partitioning of s.
+ *
+ * Example:
+ *
+ * Input: "aab"
+ * Output:
+ * [
+ * ["aa","b"],
+ * ["a","a","b"]
+ * ]
+ *
+ * 自己的思路：回溯算法
+ */
+public class PalindromePartitioning {
 
-    public static void main(String[] args)
-    {
-        System.out.println(new Solution().partition("aab"));
+    public static void main(String[] args) {
+        System.out.println(new PalindromePartitioning().partition("aab"));
     }
 
     public List<List<String>> partition(String s) {
-        List<List<String>> result = new ArrayList<List<String>>();
-        ArrayList<String> handledList = new ArrayList<String>();
+        List<List<String>> result = new ArrayList<>();
+        ArrayList<String> handledList = new ArrayList<>();
         backTracking(result, handledList, s, 0);
         return result;
     }
@@ -23,6 +43,7 @@ public class Solution {
             if (isPalindrome(s, next, i)) {
                 handledList.add(s.substring(next, i+1));
                 backTracking(result, handledList, s, i + 1);
+                handledList.remove(handledList.size() - 1);
             }
         }
     }
