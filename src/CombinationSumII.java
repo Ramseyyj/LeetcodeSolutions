@@ -38,8 +38,8 @@ import java.util.List;
  *            1. 先对candidates数组进行排序；
  *            2. 在backTracking中，在搜索的同一层中，对一样的数字只需要搜索一次，即下面的语句保证这个要求：
  *                  if (i > next && candidates[i] == candidates[i - 1]) {
-                        continue;
-                    }
+ *                      continue;
+ *                  }
  *
  */
 public class CombinationSumII {
