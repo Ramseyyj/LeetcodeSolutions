@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Yu Yujie on 19/05/2018.
  *
- * Problem 556: Next Greater Element III
+ * Problem 556. Next Greater Element III
  *
  * Description:
  * Given a positive 32-bit integer n, you need to find the smallest 32-bit integer

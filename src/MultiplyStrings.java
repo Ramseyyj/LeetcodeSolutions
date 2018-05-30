@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 19/05/2018.
  *
- * Problem 43: Multiply Strings
+ * Problem 43. Multiply Strings
  *
  * Description:
  * Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2,

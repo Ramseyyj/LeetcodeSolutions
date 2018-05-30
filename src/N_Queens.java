@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Yu Yujie on 28/05/2018.
  *
- * Problem 51: N-Queens
+ * Problem 51. N-Queens
  *
  * Description:
  * The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens

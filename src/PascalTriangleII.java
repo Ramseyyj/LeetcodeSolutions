@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by Yu Yujie on 09/03/2018.
  *
- * Problem 119: Pascal's Triangle II
+ * Problem 119. Pascal's Triangle II
  *
  * Description:
  * Given an index k, return the kth row of the Pascal's triangle.

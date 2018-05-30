@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 /**
  * Created by Yu Yujie on 29/05/2018.
  *
- * Problem 23: Merge k Sorted Lists
+ * Problem 23. Merge k Sorted Lists
  *
  * Description:
  * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.

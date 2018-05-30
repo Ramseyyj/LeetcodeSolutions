@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Yu Yujie on 25/05/2018.
  *
- * Problem 40: Combination Sum II
+ * Problem 40. Combination Sum II
  *
  * Description:
  * Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.

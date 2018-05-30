@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 09/03/2018.
  *
- * Problem 2: Add Two Numbers
+ * Problem 2. Add Two Numbers
  *
  * Description:
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse

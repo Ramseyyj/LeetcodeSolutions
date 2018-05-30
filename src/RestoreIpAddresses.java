@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by Yu Yujie on 24/05/2018.
  *
- * Problem 93: Restore IP Addresses
+ * Problem 93. Restore IP Addresses
  *
  * Description:
  * Given a string containing only digits, restore it by returning all possible valid IP address combinations.

@@ -3,7 +3,7 @@ import java.util.HashSet;
 /**
  * Created by Yu Yujie on 09/03/2018.
  *
- * Problem 3: Longest Substring Without Repeating Characters
+ * Problem 3. Longest Substring Without Repeating Characters
  *
  * Description:
  * Given a string, find the length of the longest substring without repeating characters.

@@ -3,7 +3,7 @@ import java.text.StringCharacterIterator;
 /**
  * Created by Yu Yujie on 12/03/2018.
  *
- * Problem 6: ZigZag Conversion
+ * Problem 6. ZigZag Conversion
  *
  * Description:
  * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to

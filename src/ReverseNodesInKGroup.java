@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 29/05/2018.
  *
- * Problem 25: Reverse Nodes in k-Group
+ * Problem 25. Reverse Nodes in k-Group
  *
  * Description:
  * Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.

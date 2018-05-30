@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 19/05/2018.
  *
- * Problem 91: Decode Ways
+ * Problem 91. Decode Ways
  *
  * Description:
  * A message containing letters from A-Z is being encoded to numbers using the following mapping:

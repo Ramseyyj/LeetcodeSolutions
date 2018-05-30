@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 20/05/2018.
  *
- * Problem 214: Shortest Palindrome
+ * Problem 214. Shortest Palindrome
  *
  * Description:
  * Given a string s, you are allowed to convert it to a palindrome by adding characters in front of it.

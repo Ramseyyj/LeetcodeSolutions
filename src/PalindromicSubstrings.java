@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 30/05/2018.
  *
- * Problem 647: Palindromic Substrings
+ * Problem 647. Palindromic Substrings
  *
  * Description:
  * Given a string, your task is to count how many palindromic substrings in this string.

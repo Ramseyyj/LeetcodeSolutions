@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * Created by Yu Yujie on 10/03/2018.
  *
- * Problem 792: Number of Matching Subsequences
+ * Problem 792. Number of Matching Subsequences
  *
  * Description:
  * Given string S and a dictionary of words words, find the number of words[i] that is a subsequence of S.

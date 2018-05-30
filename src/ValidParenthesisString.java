@@ -2,7 +2,7 @@
 /**
  * Created by Yu Yujie on 20/05/2018.
  *
- * Problem 678: Valid Parenthesis String
+ * Problem 678. Valid Parenthesis String
  *
  * Description:
  * Given a string containing only three types of characters: '(', ')' and '*', write a function to check

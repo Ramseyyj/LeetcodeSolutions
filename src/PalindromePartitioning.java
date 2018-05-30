@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by Yu Yujie on 23/05/2018.
  *
- * Problem 131: Palindrome Partitioning
+ * Problem 131. Palindrome Partitioning
  *
  * Description:
  * Given a string s, partition s such that every substring of the partition is a palindrome.
